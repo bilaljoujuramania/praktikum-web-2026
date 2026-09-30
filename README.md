@@ -1,7 +1,7 @@
 # Repositori Praktikum Pemrograman Web 2026
 **Informasi Mahasiswa:**
-* **Nama:** [Bilal Jouju Ramania]
-* **NIM:** [2406069]
+* **Nama:** Bilal Jouju Ramania
+* **NIM:** 2406069
 * **Kelas/Prodi:** Teknik Informatika - ITG
 * **Kode MK:** IFRWP5151
 
