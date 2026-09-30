@@ -14,3 +14,9 @@ Device ID	29B1E841-0097-4684-830D-78817EAFE6F8
 Product ID	00330-54108-94427-AAOEM
 System type	64-bit operating system, x64-based processor
 Pen and touch	No pen or touch input is available for this display
+
+## Catatan Modul 1
+- Instalasi & Verifikasi Tools (VS Code, Node.js, Laragon, Git).
+- Uji coba Laragon MySQL berjalan pada Port 3306.
+- Konfigurasi identitas Git global.
+
