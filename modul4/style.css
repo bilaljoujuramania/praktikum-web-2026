@@ -1,0 +1,53 @@
+
+/* Aurora: misterius, energik, dan futuristik */
+body > header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background:
+        radial-gradient(
+            circle at 15% 25%,
+            rgba(111, 45, 255, 0.48),
+            transparent 42%
+        ),
+        radial-gradient(
+            circle at 85% 20%,
+            rgba(255, 55, 95, 0.38),
+            transparent 42%
+        ),
+        radial-gradient(
+            circle at 55% 95%,
+            rgba(255, 166, 35, 0.38),
+            transparent 46%
+        ),
+        radial-gradient(
+            circle at 50% 45%,
+            rgba(30, 220, 200, 0.20),
+            transparent 48%
+        );
+
+    background-size: 160% 160%;
+    animation: aurora 12s ease-in-out infinite alternate;
+
+    -webkit-mask-image: linear-gradient(#000 55%, transparent);
+    mask-image: linear-gradient(#000 55%, transparent);
+}
+
+@keyframes aurora {
+    from {
+        background-position:
+            0% 0%,
+            100% 0%,
+            50% 100%,
+            20% 50%;
+    }
+
+    to {
+        background-position:
+            100% 100%,
+            0% 100%,
+            50% 0%,
+            80% 50%;
+    }
+}
